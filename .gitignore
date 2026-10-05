@@ -1,0 +1,45 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Compiled class files
+*.class
+
+# Packaged artifacts
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+application-local.yml
+application-local.properties
+*.env
+.env
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage output
+/coverage/
+.jacoco/
+
+# Docker
+docker-compose.override.yml
+
+.claude/
